@@ -1,0 +1,91 @@
+.kartinka {
+    width: 50px;
+}
+
+
+
+body {
+    background-image: url(https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1660857421_3-kartinkin-net-p-fon-dlya-prezentatsii-puzirki-krasivo-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100dvh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+.header {
+    width: 80%;
+   
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 58px;
+    
+
+    @media (max-width: 600px) {
+        font-size: 40px;
+    }
+}
+
+.kartinka2 {
+    width: 30%;
+    animation: anim1 1s ease;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        width: 60%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    animation: anim1 1s ease;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.knopka {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    animation: anim1 1s ease;
+}
+
+.qwerty {
+    background-color: pink;
+}
+
+@keyframes anim1 {
+    from {
+        transform: translateY(60px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
